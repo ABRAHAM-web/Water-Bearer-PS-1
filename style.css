@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    /*border : 0;*/
+}
+
+body {
+    /*background-image: url('Images/WaterBearerButtonBackGround3.png');*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: 80%;*/
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    font-family: Georgia;
+    background: url(Images/WaterBearerButtonBackGround3.png) fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    /* background-color: #00005dff; */
+    /*BODY {  fixed ;    }*/
+}
+
+.modalHeader {
+    color: black;
+}
+
+.modalMessage {
+    font-size: 4rem;
+    color: aliceblue;
+}
+
+.menuItems {
+    background-color: transparent;
+    border-style: none;
+    font-size: larger;
+    color: lightblue;
+    height: auto;
+    width: auto;
+}
+
+.addRow {
+    background-color: transparent;
+    height: 3rem;
+    width: 6rem;
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: black;
+}
+
+.backImg {
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container0 {
+    position: relative;
+    background-color: transparent;
+    height: 100vh;
+    width: 100vw;
+    font-family: Georgia;
+}
+
+
+
+.modal0 {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    /*border-style: solid;*/
+    /*border-width: 0.15rem;*/
+    padding: 6rem;
+    /*border-radius: 5px;*/
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia;
+}
+
+.analysisTable {
+    font-family: sans-serif;
+    font-size: x-small;
+    font-family: Georgia;
+    width: 50%;
+}
+
+.analysisTableCol {
+    width: 5%;
+}
+
+.dataCollum {
+    height: auto;
+    width: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.selected {
+    font-weight: bolder;
+    color: darkred;
+}
+
+.header {
+    text-align: center;
+    position: absolute;
+    background-color: transparent;
+    top: 0%;
+    left: initial;
+    width: 100vw;
+    margin: 0px;
+    z-index: 20;
+    padding: 0px;
+}
+
+.headerItems {
+    display: inline-flex;
+}
+
+.header0 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: darkslateblue;
+}
+
+.container {
+    z-index: 2;
+}
+
+.closeModal {
+    background-color: transparent;
+    border-style: none;
+    height: 4rem;
+    width: 4rem;
+    /*background-image: url("Images/closeModalButton.svg");*/
+}
+
+.modalOverlay {
+    /*background-color: transparent;*/
+    background-color: darkblue;
+    opacity: 80%;
+}
+
+.productImages {
+    text-align: center;
+    display: flex;
+    display: inline-block;
+}
+
+.productImagesContainer {
+    text-align: center;
+}
