@@ -1,7 +1,7 @@
 <?php include 'connection.php';?>
-                   <table border="1" class="analysisTable">
+                   <table border="1" class="analysisTable text-white">
                         <tr>
-                            <th class="analysisTableCol"><abbr title="Sample Date">Date</abbr></th>
+                            <th class="analysisTableCol"><abbr  title="Sample Date">Date</abbr></th>
                             <!-- <th class="analysisTableCol"><abbr title="Heterotrophic Plate count (Cfu/1ml)">HPC</abbr></th>
                             <th class="analysisTableCol"><abbr title="Total Coliforms count  (Cfu/100ml)">TCC</abbr></th>
                             <th class="analysisTableCol"><abbr title="E.Coli (Cfu/100ml)">E.C</abbr></th>

@@ -88,9 +88,11 @@
                     <img src="image/10LiterQuickserver500x500.jpeg" alt="Italian Trulli">
 
                     <div class="container">
-                      <div class="carousel-caption">
+                      <div class="carousel-caption text-black">
                         <h1>10 Liter re-fill bottles</h1>
-                        <p>'High quality and light weight 10 liter water bottles filled with pure prepared still water for only R160 '.</p>
+                        <p>High quality and light weight 10 liter water bottles</p>
+                        <p>filled with pure prepared still water for only R160</p>
+                        
                         <!-- <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p> -->
                       </div>
                     </div>
@@ -101,9 +103,10 @@
                     <img src="image/20LiterQuickserver500x500.png" alt="Italian Trulli">
 
                     <div class="container">
-                      <div class="carousel-caption">
+                      <div class="carousel-caption text-black">
                         <h1>20 Liter re-fill bottles</h1>
-                        <p>High quality and light weight 20 liter water bottles filled with pure prepared still water for only R200</p>
+                        <p>High quality and light weight 20 liter water bottles</p> 
+                        <p>filled with pure prepared still water for only R200</p>
                         <!-- <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p> -->
                       </div>
                     </div>
@@ -111,12 +114,12 @@
 
                   <div class="carousel-item">
                     <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
-                      <img src="image/WaterDeliveriesWBNoLogoTransparentGimp.png" alt="Water Bottles">
+                      <img src="image/filters.jpg" alt="Water Bottles">
 
                     <div class="container">
-                      <div class="carousel-caption">
-                        <h1>Deliveries</h1>
-                        <p>Prepared refill water delivered to your door</p>
+                      <div class="carousel-caption text-black">
+                        <h1>Maintenance</h1>
+                        <p>Supply and replace filters</p>
                         <!-- <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p> -->
                       </div>
                     </div>
@@ -143,7 +146,7 @@
 
               <br>
               <br>
-              <div align="center">
+              <div align="center" class="text-black">
                 <?php include 'phpDocs/analysis.php';?>
               </div>
             </div>
